@@ -33,6 +33,7 @@ def level_3_pw_check():
         else:
             pass
 ```
+Move the pos_pw_list above this function so it has access to this list.
 Run the new code, this will no longer ask us for an input and just start the loop.
 ```
 python level3.py
