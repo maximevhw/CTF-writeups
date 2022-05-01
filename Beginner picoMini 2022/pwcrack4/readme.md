@@ -19,7 +19,7 @@ Lets examine the python file.
 ```
 subl level4.py
 ```
-This challenge is almost the same as pw crack 3 but with a longer list. But our code from pw crack 3 should work just fine.
+This challenge is almost the same as pw crack 3 but with a longer list. But our code from pw crack 3 should work just fine.  
 At the bottom we have a list of possible password with only one being the right one.
 So we have a function called level_4_pw_check() which goes and asks us for a input (our password). Then it will hash this password and compare it to the known hash.
 But instead of typing our password into the function we could make a loop that takes each value in the pos_pw_list and uses it as the input. When correct it will display the flag, when false it will keep looping untill the list is done.
